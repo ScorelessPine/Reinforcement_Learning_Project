@@ -5,3 +5,4 @@ Training/
 test.py
 roms/
 *.rar
+*.whl
