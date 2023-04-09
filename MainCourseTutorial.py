@@ -20,3 +20,11 @@ for episode in range(1, episodes+1):
         score += reward
     print('Episode:{} Score:{}'.format(episode, score))
 env.close()
+
+log_path = os.path.join('Training','Logs')
+
+env = gym.make(environment_name)
+env = DummyVecEnv([lambda:env])
+model = PPO('MlpPolicy', env, verbose=1, tensorboard_log=log_path)
+
+model.learn(total_timesteps=20000)
