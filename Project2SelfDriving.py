@@ -39,8 +39,8 @@ def evaluate_and_test():
     env.close()
 
 if __name__ == '__main__':
-    #test_environment()
-    #train_model()
+    test_environment()
+    train_model()
     evaluate_and_test()
     
     
