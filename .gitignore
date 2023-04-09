@@ -3,3 +3,5 @@ swigwin-4.1.1/
 *.zip
 Training/
 test.py
+roms/
+*.rar
