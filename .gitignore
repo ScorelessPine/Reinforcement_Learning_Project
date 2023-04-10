@@ -1,6 +1,5 @@
 RL/
 swigwin-4.1.1/
-*.zip
 Training/Logs/
 test.py
 roms/
