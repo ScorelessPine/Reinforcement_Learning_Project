@@ -77,6 +77,6 @@ def evaluate_and_test():
     print(evaluate_policy(model, env, n_eval_episodes=10, render=False))
     
 if __name__ == '__main__':
-    #test_environment()
-    #train_model()
+    test_environment()
+    train_model()
     evaluate_and_test()
