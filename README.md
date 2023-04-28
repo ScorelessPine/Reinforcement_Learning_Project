@@ -21,7 +21,7 @@ Install prerequisites
 
 Note: Box2d is not officially supported on Python 3.10, so a package must be manually installed for it to work.
 Navigate to https://www.lfd.uci.edu/~gohlke/pythonlibs/
-Search for "Box2D‑2.3.2‑cp310‑cp310‑win_amd64.whl"
+Search for "Box2D-2.3.2-cp310-cp310-win_amd64.whl"
 Download it and place it inside the repository.
 
 ```
