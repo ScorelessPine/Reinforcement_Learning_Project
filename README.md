@@ -26,6 +26,7 @@ Download it and place it inside the repository.
 
 ```
 python -m pip install stable_baselines3[extra]
+python -m pip install "Box2D-2.3.2-cp310-cp310-win_amd64.whl"
 python -m pip install gym[box2d]                  (NOTE that this *will* error on python 3.10.4, however it installs some requirements for gym box2d that are needed)
 python -m pip install pyglet==1.5.27              (NOTE this specific version of pyglet is needed to render the CarRacing environment)
 ```
