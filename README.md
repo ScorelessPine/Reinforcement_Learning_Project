@@ -40,3 +40,6 @@ Run the evaluation and testing of the models
 ```
 python EvaluateAndTestModels.py
 ```
+
+# Capstone Video
+Shown here is a video of the project being evaluated per the AI Capstone Project: https://www.youtube.com/watch?v=LPrLolCQXbs
