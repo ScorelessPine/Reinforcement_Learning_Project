@@ -25,10 +25,11 @@ Search for "Box2D-2.3.2-cp310-cp310-win_amd64.whl"
 Download it and place it inside the repository.
 
 ```
-python -m pip install stable-baselines3[extra]
-python -m pip install "Box2D-2.3.2-cp310-cp310-win_amd64.whl"
-python -m pip install gym[box2d]                  (NOTE that this *will* error on python 3.10.4, however it installs some requirements for gym box2d that are needed)
-python -m pip install pyglet==1.5.27              (NOTE this specific version of pyglet is needed to render the CarRacing environment)
+pip install setuptools==66
+pip install stable-baselines3[extra]
+pip install "Box2D-2.3.2-cp310-cp310-win_amd64.whl"
+pip install gym[box2d]                  (NOTE that this *will* error on python 3.10.4, however it installs some requirements for gym box2d that are needed)
+pip install pyglet==1.5.27              (NOTE this specific version of pyglet is needed to render the CarRacing environment)
 ```
 
 Run the evaluation and testing of the models
